@@ -1,0 +1,12 @@
+# Figures Directory
+
+This directory will contain visualization outputs after running the pipeline:
+
+- `graph_stats_nodes_edges.png`: Graph size comparison
+- `graph_stats_density.png`: Density comparison  
+- `edge_time_cdf_Electronics.png`: Edge timestamp CDF for Electronics
+- `edge_time_cdf_All_Beauty.png`: Edge timestamp CDF for All_Beauty
+- `edge_time_cdf_Home_and_Kitchen.png`: Edge timestamp CDF for Home_and_Kitchen
+- Additional metric comparison plots
+
+Only commit key publication-quality figures (not all intermediate plots).

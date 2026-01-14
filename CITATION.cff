@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Amazon Co-Purchase Link Prediction: Time-Aware, Leakage-Free Evaluation"
+authors:
+  - family-names: "YM"
+    given-names: "Erfan"
+    alias: "ErfanYM"
+version: 1.0.0
+date-released: 2026-01-14
+url: "https://github.com/ErfanYM/amazon-copurchase-link-prediction"
+repository-code: "https://github.com/ErfanYM/amazon-copurchase-link-prediction"
+keywords:
+  - "link prediction"
+  - "graph mining"
+  - "temporal networks"
+  - "recommender systems"
+  - "Amazon reviews"
+  - "co-purchase networks"
+license: MIT
+abstract: |
+  A research implementation of time-aware link prediction on Amazon co-purchase networks
+  with leakage-free temporal evaluation. Implements 80th percentile temporal split,
+  2-hop candidate generation, warm vs cold-start evaluation, and baseline methods
+  (Common Neighbors, Jaccard, Adamic-Adar, Preferential Attachment).
