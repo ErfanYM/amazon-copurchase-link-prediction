@@ -8,4 +8,3 @@ This directory will contain evaluation results after running the pipeline:
 - `overall_metrics.csv`: Aggregated warm metrics
 - `coldstart_metrics.csv`: Aggregated warm+cold metrics
 
-Only commit small summary CSV files (not large intermediate files).
