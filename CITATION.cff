@@ -2,9 +2,13 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "Amazon Co-Purchase Link Prediction: Time-Aware, Leakage-Free Evaluation"
 authors:
-  - family-names: "YM"
+  - family-names: "Han"
+    given-names: "Yeseul"
+  - family-names: "YousefMoumji"
     given-names: "Erfan"
     alias: "ErfanYM"
+  - family-names: "Lu"
+    given-names: "Xi"
 version: 1.0.0
 date-released: 2026-01-14
 url: "https://github.com/ErfanYM/amazon-copurchase-link-prediction"
