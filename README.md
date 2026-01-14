@@ -10,6 +10,8 @@ This project builds co-purchase networks from Amazon review data where nodes are
 
 The evaluation covers three Amazon product categories (Electronics, All_Beauty, Home_and_Kitchen) and compares classical link prediction baselines under both **warm-start** (seen nodes) and **cold-start** (unseen nodes) scenarios.
 
+**Authors:** Yeseul Han, Erfan YousefMoumji, Xi Lu
+
 ## Key Contributions
 
 - **Leakage-free temporal split**: Train on edges up to t\* (80th percentile), test on edges after t\*
@@ -154,8 +156,8 @@ This project uses the **Amazon 5-core review datasets** (McAuley et al., 2019). 
 If you use this code or methodology in your research, please cite:
 
 ```bibtex
-@software{erfanym2026amazon,
-  author = {Erfan YM},
+@software{han_yousefmoumji_lu_2026_amazon_linkpred,
+  author = {Han, Yeseul and YousefMoumji, Erfan and Lu, Xi},
   title = {Amazon Co-Purchase Link Prediction: Time-Aware, Leakage-Free Evaluation},
   version = {1.0.0},
   year = {2026},
@@ -177,5 +179,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Maintainer**: [ErfanYM](https://github.com/ErfanYM)  
+**Maintainer**: [Erfan YousefMoumji](https://github.com/ErfanYM)  
 **Last Updated**: January 2026
