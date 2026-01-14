@@ -35,14 +35,14 @@ The evaluation covers three Amazon product categories (Electronics, All_Beauty, 
 │
 ├── src/
 │   ├── projectmilestone2.py      # Main pipeline implementation
-│   └── run.py                     # Simple entry point (optional)
+│   └── run.py                     # Simple entry point 
 │
 ├── data/
 │   └── README.md                  # Dataset download instructions
 │   # Dataset files go here (not committed)
 │
 ├── results/
-│   # CSV files with evaluation metrics (small summaries only)
+│   # CSV files with evaluation metrics
 │   ├── 5core_stats.csv
 │   ├── eval_linkpred_all.csv
 │   ├── eval_linkpred_cold.csv
@@ -57,7 +57,7 @@ The evaluation covers three Amazon product categories (Electronics, All_Beauty, 
 │   └── ...
 │
 └── report/
-    └── Final_report.pdf           # Full project report (if available)
+    └── Final_report.pdf           
 ```
 
 ## How to Run
