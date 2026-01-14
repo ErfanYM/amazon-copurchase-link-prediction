@@ -1,0 +1,11 @@
+# Results Directory
+
+This directory will contain evaluation results after running the pipeline:
+
+- `5core_stats.csv`: Graph statistics for each category
+- `eval_linkpred_all.csv`: Warm-start evaluation (all seeds)
+- `eval_linkpred_cold.csv`: Cold-start evaluation (all seeds)
+- `overall_metrics.csv`: Aggregated warm metrics
+- `coldstart_metrics.csv`: Aggregated warm+cold metrics
+
+Only commit small summary CSV files (not large intermediate files).

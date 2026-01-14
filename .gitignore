@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data files - do NOT commit raw datasets
+data/*
+!data/README.md
+
+# Large file formats
+*.parquet
+*.json.gz
+*.csv.gz
+*.zip
+*.tar.gz
+*.7z
+
+# macOS files
+.DS_Store
+
+# Results (commit only small summaries)
+# results/ folder is tracked but large files blocked above
