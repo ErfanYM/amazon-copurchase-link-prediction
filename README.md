@@ -28,6 +28,7 @@ The evaluation covers three Amazon product categories (Electronics, All_Beauty, 
 ├── LICENSE                        # MIT License
 ├── requirements.txt               # Python dependencies
 ├── CITATION.cff                   # Citation metadata
+├── Makefile                       # Build automation (optional)
 ├── .gitignore                     # Git ignore rules
 │
 ├── src/
@@ -86,18 +87,31 @@ Place them in the `data/` directory.
 
 ### Run the Pipeline
 
-**Option 1: Direct execution (after updating paths in code)**
+**Option 1: Using Make (recommended)**
 
 ```bash
-# Edit src/projectmilestone2.py to update data paths (lines 52-54)
-# Then run:
-python src/projectmilestone2.py
+# Install dependencies
+make install
+
+# Run the pipeline
+make run
+
+# Clean results (if needed)
+make clean
 ```
 
-**Option 2: Using the run script (if available)**
+**Option 2: Using the run script directly**
 
 ```bash
 python src/run.py --data-dir data
+```
+
+**Option 3: Direct execution (after updating paths in code)**
+
+```bash
+# Edit src/projectmilestone2.py to update data paths (lines 53-55)
+# Then run:
+python src/projectmilestone2.py
 ```
 
 The pipeline will:

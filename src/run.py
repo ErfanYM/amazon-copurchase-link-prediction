@@ -15,24 +15,7 @@ Usage:
 import os
 import sys
 import argparse
-import gzip
-import json
 from pathlib import Path
-from collections import defaultdict
-from itertools import combinations
-
-import numpy as np
-import pandas as pd
-import networkx as nx
-from sklearn.metrics import average_precision_score, roc_auc_score
-from tqdm import tqdm
-import matplotlib
-matplotlib.use('Agg')  # Non-interactive backend
-import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
-from matplotlib.ticker import PercentFormatter
-import random
-import time
 
 
 def parse_args():
